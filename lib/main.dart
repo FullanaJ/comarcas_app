@@ -122,6 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              Image(image: AssetImage('lib/src/login.png')),
               Text("Les Comarques de\nla comunitat",
                   textAlign: TextAlign.center),
               TextName(),
